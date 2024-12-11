@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 16px 0;
+    background-color: #182c61;
+    color: white;
+}
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+header nav li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+}
+.list_img img {
+    height: 24px;
+    
+}
+.list_img li{
+    display: inline;
+}
+section .container {
+    align-items: flex-start;
+}
+section {
+    padding: 24px 0 ;
+
+}
+
+section h2{
+    margin-bottom: 16px;
+}
+section p {
+    margin-bottom: 8px;
+}
+.frente-loja{
+    margin-right: 24px;
+}
